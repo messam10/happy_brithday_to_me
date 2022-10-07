@@ -1,0 +1,73 @@
+﻿body,
+button,
+input,
+textarea {
+	font-family: Consolas, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	overflow: auto;
+	background-color: #212124;
+	margin-top: -66px;
+}
+
+#code {
+	float: left;
+	height: 480px;
+	color: #212124;
+	font-family: Consolas;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+#code .while {
+	color: #fff;
+}
+
+#code .whiletext {
+	color: white;
+}
+
+#code .green {
+	color: green;
+}
+
+#code .purple {
+	color: purple;
+}
+
+#code .blue {
+	color: rgb(102, 102, 250);
+}
+
+#code .yellow {
+	color: rgb(228, 252, 180);
+}
+
+#code .aqua {
+	color: rgb(157, 157, 252);
+}
+
+#code .rosybrown {
+	color: rosybrown;
+}
+
+#errorMsg {
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	position: absolute;
+	top: 100px;
+	left: 0;
+}
+
+.by {
+	display: block;
+	text-align: center;
+	padding-left: 100px;
+	font-size: 40px;
+	color: #fff;
+}
